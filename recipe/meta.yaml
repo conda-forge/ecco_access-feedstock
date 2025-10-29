@@ -1,5 +1,5 @@
 {% set name = "ecco_access" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ecco_access-{{ version }}.tar.gz
-  sha256: 478dc88bf46ec59eb70d72c6abf4aee20818085a53afcc48c897c30dbd75ccd4
+  sha256: 0ded7c689c1030681b664104d51edc1d2dda2d162aa37de50283ac451183c0f8
 
 build:
   noarch: python
